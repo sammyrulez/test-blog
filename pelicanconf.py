@@ -9,7 +9,7 @@ TIMEZONE = 'Europe/Rome'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -32,4 +32,5 @@ SOCIAL = (
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+SITEURL = "https://samreghenzi.it/test-blog/"
+RELATIVE_URLS = False
